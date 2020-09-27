@@ -34,7 +34,6 @@ router.get('/', function (req, res) {
 
 router.put('/', function (req, res) {
     let type;
-    console.log(req.body);
     if(req.body.type === 'todo'){
         type = 'done';
     }else{
